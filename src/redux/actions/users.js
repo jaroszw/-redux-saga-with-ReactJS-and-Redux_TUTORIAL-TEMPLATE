@@ -1,6 +1,6 @@
 import * as type from "../types";
 
 export const getUsers = (users) => ({
-  type: type.GET_USERS,
+  type: type.GET_USERS_REQUESTED,
   payload: users,
 });
